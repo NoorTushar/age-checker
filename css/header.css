@@ -1,6 +1,59 @@
 header {
-  padding: 10px 0;
+  background-color: var(--ash);
 }
-header > h1 {
-  text-align: center;
+.my-navbar {
+  background-color: transparent;
+}
+/* .my-navbar ul {
+  gap: 10px;
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    gap: 10px;
+  }
+} */
+.my-navbar ul li a {
+  color: var(--white);
+  font-weight: 500;
+  position: relative;
+}
+.my-navbar ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: var(--red);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.my-navbar ul li a:hover {
+  color: white;
+}
+.my-navbar ul li a:hover::before {
+  width: 100%;
+}
+
+.my-navbar ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 3px;
+  background-color: var(--red);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.my-navbar ul li a:hover::after {
+  width: 100%;
+}
+.my-logo {
+  width: 150px;
 }

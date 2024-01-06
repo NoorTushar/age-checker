@@ -21,3 +21,11 @@ ul,
 li {
   list-style: none;
 }
+
+:root {
+  --white: #f7f7ff;
+  --red: #fe5f54;
+  --ash: #495868;
+  --navy: #587399;
+  --lightBlue: #bdd5ea;
+}

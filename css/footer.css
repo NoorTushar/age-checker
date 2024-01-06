@@ -1,0 +1,25 @@
+footer {
+  padding: 20px;
+  background-color: var(--lightBlue);
+  text-align: center;
+}
+footer p {
+  color: var(--ash);
+}
+.social-icons {
+  margin-bottom: 10px;
+}
+.social-icons ul li a {
+  color: var(--ash);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.social-icons ul li a:hover {
+  color: var(--red);
+}
+.social-icons ul li a i {
+  font-size: 20px;
+}
