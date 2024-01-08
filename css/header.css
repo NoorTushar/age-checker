@@ -58,3 +58,14 @@ header {
 .my-logo {
   width: 150px;
 }
+
+.my-toggler {
+  border: 2px solid #f45c51;
+}
+.hamburger {
+  color: #f45c51;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
