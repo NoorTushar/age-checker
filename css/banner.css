@@ -43,6 +43,8 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   font-weight: 500;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 #age:focus {
