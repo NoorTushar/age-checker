@@ -25,9 +25,9 @@
       <div class="container">
         <nav class="my-navbar navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><img class="my-logo" src="images/logo.png" alt=""
-            /></a>
+            <a class="navbar-brand" href="#">
+              <img class="my-logo" src="images/logo.png" alt="" />
+            </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -60,12 +60,22 @@
       </div>
     </header>
     <!-- Banner Start -->
-    <div class="banner">
+    <section class="banner">
       <div class="container-fluid">
-        <h2 class="banner-title">Concert Booking</h2>
+        <div class="banner-title">
+          <h4>Welcome to</h4>
+          <h1>NEW YEAR <span style="color: #fe5f55">CONCERT</span> 2024</h1>
+        </div>
 
         <div class="row justify-content-center">
-          <div class="col-6 col-md-8 col-lg-6 col-xl-5">
+          <div class="col-6 col-md-8 col-lg-6 col-xl-5 text-center mt-3">
+            <p class="text-white fs-5">
+              This concert is <span style="color: #fe5f55">only </span> for
+              adults.
+            </p>
+            <p class="text-white fs-5">
+              Please enter your age below to get your tickets.
+            </p>
             <input
               class="w-100"
               type="text"
@@ -79,11 +89,15 @@
         <div class="row justify-content-center">
           <!-- Child Column -->
           <div class="col-12 invalid-age">
-            <h3 class="text-center">Invalid <span>Number</span></h3>
+            <h3 class="text-center">Invalid <span>Age</span></h3>
           </div>
           <div class="col-12 col-md-4 col-lg-3 child-column">
             <div class="card" style="width: 18rem">
-              <img src="./images/child.jpg" class="card-img-top" alt="..." />
+              <img
+                src="./images/crying-child.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title my-card-title">You are a Child!</h5>
                 <p class="card-text my-card-description">
@@ -104,12 +118,13 @@
                   Looks like you are a child. Go ahead! You can purchase tickets
                   for concert.
                 </p>
+                <button class="btn purchase-btn">Purchase</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Banner End -->
     <footer>
       <div class="container">

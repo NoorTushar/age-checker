@@ -1,7 +1,11 @@
 .banner {
-  min-height: 90vh;
-  background-color: var(--navy);
-  padding: 50px 0 100px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #070211 0%, rgba(65, 9, 38, 0) 100%),
+    url("../images/concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
 }
 .banner-title {
   color: var(--white);
@@ -15,18 +19,19 @@
   color: var(--white);
 }
 .my-card-title {
-  color: var(--navy);
+  color: #2c1b39;
 }
 .my-card-description {
-  color: var(--ash);
+  color: #32062a;
 }
 #age {
-  margin: 40px 0 60px;
-  padding: 5px 10px;
+  margin: 20px 0 40px;
+  padding: 15px 20px;
+  font-size: 18px;
   /* border: 2px solid var(--white); */
   border: none;
   outline: none;
-  color: var(--ash);
+  color: var(--white);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -37,16 +42,28 @@
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  font-weight: 500;
 }
+
 #age:focus {
   outline: none;
-  border-color: var(--ash);
-  background-color: var(--lightBlue);
+  border-color: #a994c8;
+  background-color: #a994c8;
 }
 
 .child-column,
 .adult-column {
-  display: flex;
+  display: none;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.purchase-btn {
+  font-weight: bold;
+  background-color: #2c1b39;
+  color: white;
+}
+.purchase-btn:hover {
+  background-color: #a994c8;
+  color: black;
 }

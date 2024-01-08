@@ -7,8 +7,8 @@ ageElement.addEventListener("keyup", (e) => {
   let age = ageElement.value;
 
   if (!age) {
-    childColumn.style.display = "flex";
-    adultColumn.style.display = "flex";
+    childColumn.style.display = "none";
+    adultColumn.style.display = "none";
     invalidAgeElement.style.display = "none";
   } else if (age >= 18) {
     childColumn.style.display = "none";
